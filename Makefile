@@ -35,6 +35,9 @@ dtp: $(NAME).md $(BIB).bib dcchowto-template.latex
 	perl -0777 -p -i -e 's@\\footref\(fn:valimiki\)@\\footref{fn:valimiki}@ig' $(NAME).tex
 	perl -0777 -p -i -e 's@\\autocite\{valimaki2003dlo\}@\\footnote{\\fullcite{valimaki2003dlo}\\label{fn:valimiki}}@i' $(NAME).tex
 	perl -0777 -p -i -e 's/\[\@adobe2010xmp\]/\\autocite{adobe2010xmp}/ig' $(NAME).tex
+	# General lines
+	perl -0777 -p -i -e 's/\\item\[([^\]]+) \\autocite\{([^}]+)\}\]\n/\\item[\1]\n\\hskip-\\labelsep\\autocite{\2}\\hskip\\labelsep /ig' $(NAME).tex
+	perl -0777 -p -i -e 's/\\item\[([^\]]+)\\footnote\{([^\]]+)\}\]\n/\\item[\1]\n\\hskip-\\labelsep\\footnote{\2}\\hskip\\labelsep /ig' $(NAME).tex
 	perl -0777 -p -i -e 's@,\sURL:@, \\smallcaps{URL}:@igms' $(NAME).tex
 	perl -0777 -p -i -e 's@\\texttt\{\\textless\{\}\}@\$$\\langle\$$@ig' $(NAME).tex
 	perl -0777 -p -i -e 's@\\texttt\{\\textgreater\{\}\}@\$$\\rangle\$$@ig' $(NAME).tex

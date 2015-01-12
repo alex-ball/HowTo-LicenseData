@@ -2,6 +2,8 @@
 title: How to License Research Data
 author: 'Alex Ball (DCC)'
 date: 17 July 2014
+classoption:
+  - onecolumn
 ---
 
 > This guide will help you decide how to apply a licence to your 
@@ -409,8 +411,7 @@ Open Data Commons {#sec:odc}
 The Open Data Commons Project^[Open Data Commons Website, URL:
 <http://opendatacommons.org/>] was set up in 2007 to develop a
 successor to the Talis Community Licence (TCL).^[TCL, URL:
-<http://web.archive.org/web/20130923083859/http://tdnarchive.capita-
-libraries.co.uk/tcl>] 
+<http://web.archive.org/web/20130923083859/http://tdnarchive.capita-libraries.co.uk/tcl>] 
 The first licence to be produced was a public domain dedication for 
 databases. The project transferred to the Open Knowledge Foundation in 
 2009 and has produced two further licences having some of the character 
@@ -652,17 +653,17 @@ holders are setting up a multiple licensing regime of their own.
 Another, more extreme, possibility is to negotiate a rights assignment.
 [@meeker2005dlo][@gnu2010wca]
 
-\bgroup\figure[ht]\fillboxout\small
+\bgroup\marginfigure\marginfillboxout\small
 \input{fig-dual-licence}
 
-\endfillboxout
+\endmarginfillboxout
 
-\caption[Licence streams of a core product in a simplified dual 
-licensing model]{Licence streams of a core product in a simplified dual 
-licensing model (adapted from Välimäki, 2003).\footref(fn:valimiki)}
+\caption[Licence streams of a core product in a simplified dual
+licensing model]{Licence streams of a core product in a simplified dual
+licensing model (adapted from Välimäki, 2003).\protect\footref(fn:valimiki)}
 \label{fig:dual-licence}
 
-\endfigure\egroup
+\endmarginfigure\egroup
 
 By way of illustration, a dual licensing model working within these
 constraints is shown in [Figure 1](#fig:dual-licence). This model was 
@@ -739,7 +740,7 @@ URLs. For example, the machine-readable equivalent of the ODC PDDL
 statement above would be a Resource Description Framework (RDF) triple
 such as that shown in [Figure 2](#fig:rdf-rights).[@manola.miller2004rp]
 
-\bgroup\figure[ht]\fillboxout\small
+\bgroup\csname figure*\endcsname[ht]\fillboxout\small
 
 ~~~~ {.xml}
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns">
@@ -750,16 +751,17 @@ such as that shown in [Figure 2](#fig:rdf-rights).[@manola.miller2004rp]
 ~~~~~~~~~~~
 
 \endfillboxout
-\caption[RDF rights statement]{A rights statement encoded in RDF/XML. 
-Note that the `rdf:about` attribute should identify the data to 
-which the statement applies. In the context of an XMP packet, this 
-attribute is left blank to identify the resource in which the packet is 
+\caption[RDF rights statement]{A rights statement encoded in RDF/XML.
+Note that the `rdf:about` attribute should identify the data to
+which the statement applies. In the context of an XMP packet, this
+attribute is left blank to identify the resource in which the packet is
 embedded.[@adobe2010xmp]}
 \label{fig:rdf-rights}
 
-\endfigure\egroup
+\csname endfigure*\endcsname\egroup
 
-Again, this should be made available somewhere the tool would look when
+\keepmarginfor{fig:rdf-rights}Again,
+this should be made available somewhere the tool would look when
 downloading the data, such as within a dataset catalogue record or
 landing page. If possible you should also include the rights statement
 within each data file – the following list indicates how this may be
@@ -826,7 +828,7 @@ XFDU^[XFDU Website, URL: <http://sindbad.gsfc.nasa.gov/xfdu/>]
     Interchange File) or the `<metadataReference>` element (if
     elsewhere) instead of the `<metadataWrap>` element.
 
-MPEG-21[@bekaert.etal2003umd]
+MPEG-21 [@bekaert.etal2003umd]
 :   In the DIDL file, within the `<Item>` element containing the data,
     add a `<Description>` element, and within that, a `<Statement>`
     element with the attribute `mimeType="text/xml"`. Within that, add
