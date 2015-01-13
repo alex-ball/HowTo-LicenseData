@@ -6,16 +6,14 @@ classoption:
   - onecolumn
 ---
 
-> This guide will help you decide how to apply a licence to your 
-research
+> This guide will help you decide how to apply a licence to your research
 > data, and which licence would be most suitable. It should provide you
 > with an awareness of why licensing data is important, the impact
 > licences have on future research, and the potential pitfalls to avoid.
 > It concentrates on the UK context, though some aspects apply
 > internationally; it does not, however, provide legal advice. The guide
 > should interest both the principal investigators and researchers
-> responsible for the data, and those who provide access to them 
-through a
+> responsible for the data, and those who provide access to them through a
 > data centre, repository or archive.
 
 Why license research data? {#sec:why}
@@ -35,21 +33,21 @@ also allows greater scrutiny of how research conclusions have been
 reached, potentially driving up research quality [@sqwc.lisu2008oar,
 §3.10]. Some journals are taking a similar stance, requiring that
 authors deposit their supporting data either with the journal itself or
-with a recognised data repository.^[Examples of journals with such a 
-policy include the *American Economic Review*, the *Journal of 
-Evolutionary Biology*, and *Clinical Infectious Diseases*.] There are 
-many additional reasons why releasing data can be in a researcher’s 
-interests.[@stodden2009err][@rin.nesta2010oac] The discipline of 
-working up data for eventual release helps in ensuring that a full and 
-clear record is preserved of how the conclusions were reached from the 
-data, protecting the researcher from potential challenges. A culture of 
-openness deters fraud, encourages learning from mistakes as well as 
-from successes, and breaks down barriers to interdisciplinary and 
-‘citizen science’ research. The availability of the data, alongside 
-associated tools and protocols, increases the efficiency of research by 
-reducing both data collection costs and the possibility of duplication. 
-It also has the potential to increase the impact of the research, not 
-only academically,[@pienta.etal2010evs] but also economically and 
+with a recognised data repository.^[Examples of journals with such a
+policy include the *American Economic Review*, the *Journal of
+Evolutionary Biology*, and *Clinical Infectious Diseases*.] There are
+many additional reasons why releasing data can be in a researcher’s
+interests.[@stodden2009err][@rin.nesta2010oac] The discipline of
+working up data for eventual release helps in ensuring that a full and
+clear record is preserved of how the conclusions were reached from the
+data, protecting the researcher from potential challenges. A culture of
+openness deters fraud, encourages learning from mistakes as well as
+from successes, and breaks down barriers to interdisciplinary and
+‘citizen science’ research. The availability of the data, alongside
+associated tools and protocols, increases the efficiency of research by
+reducing both data collection costs and the possibility of duplication.
+It also has the potential to increase the impact of the research, not
+only academically,[@pienta.etal2010evs] but also economically and
 socially.
 
 Merely releasing data without making clear their terms of use can be
@@ -69,20 +67,20 @@ Australia, creativity is not relevant but originality is. Originality is
 judged on a range of factors, including skill and labour, but the skill
 and labour have to relate directly to the work in question: the effort
 spent compiling a database does not necessarily affect the originality
-of a report generated from it.^[*Telstra Corporation Limited v Phone 
-Directories Company Pty Ltd* \[2010\] FCAFC 149. Retrieved 10 January 
-2010, from 
-<http://www.austlii.edu.au/au/cases/cth/FCAFC/2010/149.html>] 
-Within the EU, the act of compiling a database attracts copyright 
-insofar as the compiler has exercised intellectual judgement in 
-selecting or arranging the data [@eu1996lpd]. There is also a separate 
-database right that applies to the contents of a database where a 
-substantial investment was made to obtain, verify or present them. The 
-thrust of the database right is that users may not extract or reuse 
-more than an insubstantial part of the contents without authorisation 
-from the compiler, unless certain exemptions apply. One of the 
-exemptions is for teaching and scientific research, but as the EU 
-Database Directive does not commit Member States to respecting it, it 
+of a report generated from it.^[*Telstra Corporation Limited v Phone
+Directories Company Pty Ltd* \[2010\] FCAFC 149. Retrieved 10 January
+2010, from
+<http://www.austlii.edu.au/au/cases/cth/FCAFC/2010/149.html>]
+Within the EU, the act of compiling a database attracts copyright
+insofar as the compiler has exercised intellectual judgement in
+selecting or arranging the data [@eu1996lpd]. There is also a separate
+database right that applies to the contents of a database where a
+substantial investment was made to obtain, verify or present them. The
+thrust of the database right is that users may not extract or reuse
+more than an insubstantial part of the contents without authorisation
+from the compiler, unless certain exemptions apply. One of the
+exemptions is for teaching and scientific research, but as the EU
+Database Directive does not commit Member States to respecting it, it
 may not apply in all European countries.
 
 Indeed, another potential source of confusion are the variations between
@@ -142,8 +140,8 @@ licences are attribution, copyleft, and non-commerciality.
 
 -   The intent of a *non-commercial* licence is to prevent the licensee
     from exploiting the work commercially. Such licences are often used
-    as part of a dual-licensing regime (see ‘[Multiple 
-    licensing](#sec:multi)’, below), where the alternative licence 
+    as part of a dual-licensing regime (see ‘[Multiple
+    licensing](#sec:multi)’, below), where the alternative licence
     allows commercial uses but requires payment to the licensor.
 
 While these all have their uses, they can cause problems in the context
@@ -159,10 +157,10 @@ contributors have to be credited in a different way, especially if
 automated methods are used to assemble the dataset – some of the
 benefits of automation are lost if attribution conditions have to be
 inspected manually. Some licenses and licensors tackle this problem by
-specifying lightweight attribution mechanisms.^[OCLC, for example, 
-builds flexibility into its use of the ODC-By licence by allowing ‘in 
-circumstances where providing the full attribution statement...is not 
-technically feasible, the use of canonical \[dataset\] URIs is 
+specifying lightweight attribution mechanisms.^[OCLC, for example,
+builds flexibility into its use of the ODC-By licence by allowing ‘in
+circumstances where providing the full attribution statement...is not
+technically feasible, the use of canonical \[dataset\] URIs is
 adequate...’ alongside examples of acceptable practice [@oclcNDdla].]
 
 The problem with copyleft licences is they prevent the licensed data
@@ -173,8 +171,8 @@ small amount of flexibility in allowing derivative works to be released
 under a compatible licence, that is, one that applies approximately the
 same conditions.[^copyleft]
 
-[^copyleft]: For example, the GNU Project maintains a list of licences 
-    for code which permit redistribution under the GNU General Public 
+[^copyleft]: For example, the GNU Project maintains a list of licences
+    for code which permit redistribution under the GNU General Public
     Licence (GPL) and whose terms the GPL can accommodate [@gnu2010vlc].
 
     Creative Commons maintains lists of licences into which its Share
@@ -197,14 +195,14 @@ first check whether you are obliged or strongly encouraged to use a
 certain licence as a condition of funding or deposit, or as a matter of
 local policy.
 
-Your department or institution may already have a licence prepared for 
-you to apply to your data. Rothamsted Research, a BBSRC Institute, uses 
-several different legacy licences for its own data, each reflecting 
-both a desire to see the data used in current research, and caution 
-against naïve or simplistic interpretation.^[Rothamsted Research 
-Website, URL: <http://www.rothamsted.ac.uk/>] On the other hand, it 
-also maintains some public domain genome sequences as part of the 
-Multinational *Brassica* Genome Project.^[Multinational *Brassica* 
+Your department or institution may already have a licence prepared for
+you to apply to your data. Rothamsted Research, a BBSRC Institute, uses
+several different legacy licences for its own data, each reflecting
+both a desire to see the data used in current research, and caution
+against naïve or simplistic interpretation.^[Rothamsted Research
+Website, URL: <http://www.rothamsted.ac.uk/>] On the other hand, it
+also maintains some public domain genome sequences as part of the
+Multinational *Brassica* Genome Project.^[Multinational *Brassica*
 Genome Project Website, URL: <http://www.brassica.info/>]
 
 Some data centres have licences that depositors must grant as a
@@ -215,15 +213,15 @@ UKDA to perform its curatorial functions [@ukds2013la]. In turn, the
 UKDA makes the data available under various licences depending on the
 type of data. Open data may use the Open Government Licence, the
 Creative Commons BY-SA or BY-NC-SA version 4.0 licences, or the World
-Bank Terms of Use (see ‘[Standard licences](#sec:standard)’ below). 
-Safeguarded data are made available under one of two bespoke licences: 
-the Special Licence if the data are sensitive, otherwise the End User 
-Licence with or without special (additional) conditions [@ukds2014tac]. 
-Similarly, researchers depositing data with the Archaeology Data 
-Service (ADS) are required to sign a deposit licence.^[ADS deposit 
-licence, URL: 
-<http://www.ahds.ac.uk/documents/ahds-archaeology-licence-form.doc>] 
-Those using data hosted by the ADS do so under both a brief licence and 
+Bank Terms of Use (see ‘[Standard licences](#sec:standard)’ below).
+Safeguarded data are made available under one of two bespoke licences:
+the Special Licence if the data are sensitive, otherwise the End User
+Licence with or without special (additional) conditions [@ukds2014tac].
+Similarly, researchers depositing data with the Archaeology Data
+Service (ADS) are required to sign a deposit licence.^[ADS deposit
+licence, URL:
+<http://www.ahds.ac.uk/documents/ahds-archaeology-licence-form.doc>]
+Those using data hosted by the ADS do so under both a brief licence and
 a common access agreement [@adsNDtua].
 
 Both the UKDA and ADS deposit licences are non-exclusive, which means
@@ -236,18 +234,18 @@ Bespoke licences {#sec:bespoke}
 
 Writing a bespoke licence for your data is not a trivial undertaking,
 and almost certainly unnecessary in the light of the standard licences
-available (see ‘[Standard licences](#sec:standard)’ below). 
-Furthermore, using a standard licence helps the users of your data as 
-it reduces the number of licences with which they have to work, and 
-aids interoperability and automation as described above. There are 
-circumstances, though, in which it might be worth writing a custom 
-licence: where the data have significant commercial value,^[In the UK, 
-examples of public sector data offered commercially under bespoke 
-licences include those from the Ordnance Survey 
+available (see ‘[Standard licences](#sec:standard)’ below).
+Furthermore, using a standard licence helps the users of your data as
+it reduces the number of licences with which they have to work, and
+aids interoperability and automation as described above. There are
+circumstances, though, in which it might be worth writing a custom
+licence: where the data have significant commercial value,^[In the UK,
+examples of public sector data offered commercially under bespoke
+licences include those from the Ordnance Survey
 (<http://www.ordnancesurvey.co.uk/business-and-government/licensing/licences/>)
-and the Hydrographic Office 
-(<http://www.ukho.gov.uk/copyright/>).] or where 
-you need to clarify your responsibilities and those of reusers in 
+and the Hydrographic Office
+(<http://www.ukho.gov.uk/copyright/>).] or where
+you need to clarify your responsibilities and those of reusers in
 respect of the data.
 
 If you decide to do this, in the first instance you should consult with
@@ -257,7 +255,7 @@ you on the implications of including particular clauses or using
 particular wording in the licence; they may have standard texts or
 templates you could use, or may even offer to write the licence for you.
 
-An example of the template approach is the Restrictive Licence 
+An example of the template approach is the Restrictive Licence
 (RL)^[AusGOAL Restrictive Licence template, URL:
 <http://www.ausgoal.gov.au/restrictive-licence-template>]
 that was developed as part of Queensland’s Government Information
@@ -278,13 +276,13 @@ blanket permissions.
 An example of fully bespoke licences are the ones used by the Augmented
 Multi-Party Interaction (AMI) Project at the University of
 Edinburgh.^[AMI Meeting Corpus Website, URL:
-<http://groups.inf.ed.ac.uk/ami/corpus/>] The project released its AMI 
-Meeting Corpus under two licences written by the Edinburgh Research and 
-Innovation unit. One was a free, non-commercial, copyleft licence,^[The 
-AMI Meeting Corpus License is similar but not identical to the Creative 
-Commons BY-NC-SA 2.0 Licence; URL: 
-<http://groups.inf.ed.ac.uk/ami/corpus/license.shtml>.] and the other a 
-chargeable commercial licence. This is also an example of a dual 
+<http://groups.inf.ed.ac.uk/ami/corpus/>] The project released its AMI
+Meeting Corpus under two licences written by the Edinburgh Research and
+Innovation unit. One was a free, non-commercial, copyleft licence,^[The
+AMI Meeting Corpus License is similar but not identical to the Creative
+Commons BY-NC-SA 2.0 Licence; URL:
+<http://groups.inf.ed.ac.uk/ami/corpus/license.shtml>.] and the other a
+chargeable commercial licence. This is also an example of a dual
 licensing arrangement (see ‘[Multiple licensing](#sec:multi)’ below).
 
 Standard licences {#sec:standard}
@@ -300,6 +298,24 @@ licensor’s IPR or, for a particular licensee, through breach of terms.
 Creative Commons {#sec:cc}
 ----------------
 
+\bgroup\marginbox\boxout
+\noindent{}**Creative Commons at a glance**
+
+*Good for*
+
+  * very simple, factual datasets
+  * data to be used automatically
+
+*Watch out for*
+
+  * versions: use v.\ 4 or later
+  * attribution stacking
+  * the NC condition: only use with dual licensing
+  * the SA condition as it reduces interoperability
+  * the ND condition as it severely restricts reuse
+
+\endboxout\endmarginbox\egroup
+
 Creative Commons is a non-profit corporation set up in 2001 for the
 purpose of producing simple yet robust licences for creative
 works.^[Creative Commons Website, URL: <http://creativecommons.org/>]
@@ -307,11 +323,11 @@ These licences give the creators of such works finer-grained control
 over how they may be used than simply declaring them public domain or
 reserving all rights. As well as the legal text, the licences all have
 quick clear summaries and a canonical URL for use in HTML, RDF and other
-code. A rights expression language is also provided for use with 
-RDF.^[RDF and rights expression languages are discussed under 
-‘[Mechanisms for licensing data](#sec:mechanism)’ below.] While 
-originally aimed at works such as music, images and video, Creative 
-Commons licences have been used widely for most forms of original 
+code. A rights expression language is also provided for use with
+RDF.^[RDF and rights expression languages are discussed under
+‘[Mechanisms for licensing data](#sec:mechanism)’ below.] While
+originally aimed at works such as music, images and video, Creative
+Commons licences have been used widely for most forms of original
 content, including data.
 
 There are six main Creative Commons licences. While the spirit behind
@@ -335,15 +351,15 @@ There is a *Non-Commercial* condition, where commercial is defined as
 monetary compensation” [@creativecommons2010faq].
 
 The *Share Alike* condition inserts a strong copyleft clause into the
-licence.^[The strength of a copyleft clause refers to the range of 
-derivations to which it applies, with weaker clauses applying to a 
-narrower range. For example, giving a software library a weak copyleft 
-licence means that all future versions/modifications of that library 
-inherit the licence, but software that merely depends on that library 
-does not.] The version 1 licences are very strict: derivations may only 
-use the exact same version 1 licence. The version 2 licences onwards, 
-however, allow derivations to use a later version or a different port 
-of the same license. Nevertheless, derivations may not use a Creative 
+licence.^[The strength of a copyleft clause refers to the range of
+derivations to which it applies, with weaker clauses applying to a
+narrower range. For example, giving a software library a weak copyleft
+licence means that all future versions/modifications of that library
+inherit the licence, but software that merely depends on that library
+does not.] The version 1 licences are very strict: derivations may only
+use the exact same version 1 licence. The version 2 licences onwards,
+however, allow derivations to use a later version or a different port
+of the same license. Nevertheless, derivations may not use a Creative
 Commons licence with a different set of conditions.
 
 Finally, including the *No Derivatives* condition in the version 3
@@ -376,14 +392,14 @@ The six permutations are therefore
 The versions of the licences prior to version 4 were not specifically
 aimed at data, so using them for such presents some problems. The most
 significant is that they do not explicitly cover *sui generis* database
-rights such as the one in force in the European Union.^[More precisely, 
-the ports of the version 3 licences to European jurisdictions fully 
-waive the *sui generis* database right, while all other ports and the 
-unported versions fully reserve it.] This means, for example, that use 
-of substantial portions of a database licensed using the unported terms 
-of version 3 or earlier may constitute a rights infringement in such 
-jurisdictions. The version 4 licences, however, do explicitly include 
-*sui generis* database rights unless the licensor specifically reserves 
+rights such as the one in force in the European Union.^[More precisely,
+the ports of the version 3 licences to European jurisdictions fully
+waive the *sui generis* database right, while all other ports and the
+unported versions fully reserve it.] This means, for example, that use
+of substantial portions of a database licensed using the unported terms
+of version 3 or earlier may constitute a rights infringement in such
+jurisdictions. The version 4 licences, however, do explicitly include
+*sui generis* database rights unless the licensor specifically reserves
 them.
 
 All versions of the licences treat datasets and databases as a whole:
@@ -408,39 +424,83 @@ below).
 Open Data Commons {#sec:odc}
 -----------------
 
+\bgroup\marginbox\boxout
+\noindent{}**Example**
+
+In 2010, [OpenStreetMap changed its licence](http://www.osmfoundation.org/wiki/License/We_Are_Changing_The_License)
+from CC BY-SA 2.0 to ODC-ODbL 1.0 because ODbL
+
+  * handled database rights;
+  * enforced copyleft for derived data but not derived maps;
+  * allowed the project to speak for all contributors.
+
+\endboxout\endmarginbox\egroup
+
 The Open Data Commons Project^[Open Data Commons Website, URL:
 <http://opendatacommons.org/>] was set up in 2007 to develop a
 successor to the Talis Community Licence (TCL).^[TCL, URL:
-<http://web.archive.org/web/20130923083859/http://tdnarchive.capita-libraries.co.uk/tcl>] 
-The first licence to be produced was a public domain dedication for 
-databases. The project transferred to the Open Knowledge Foundation in 
-2009 and has produced two further licences having some of the character 
-of the Creative Commons licences, but designed specifically for 
-databases. All three follow the Creative Commons model of providing a 
+<http://web.archive.org/web/20130923083859/http://tdnarchive.capita-libraries.co.uk/tcl>]
+The first licence to be produced was a public domain dedication for
+databases. The project transferred to the Open Knowledge Foundation in
+2009 and has produced two further licences having some of the character
+of the Creative Commons licences, but designed specifically for
+databases. All three follow the Creative Commons model of providing a
 clear summary and canonical URL alongside the full legal text.
+
+\bgroup\marginbox\boxout
+\noindent{}**ODC-By at a glance**
+
+*Good for*
+
+  * most databases and datasets
+  * data to be used automatically
+  * data to be used for generating non-data products
+
+*Watch out for*
+
+  * attribution stacking
+
+\endboxout\endmarginbox\egroup
 
 The Open Data Commons Attribution Licence (ODC-By) allows licensees to
 copy, distribute and use the database, to produce works from it and to
-modify, transform and build upon it for any purpose.^[ODC-By, URL: 
-<http://opendatacommons.org/licenses/by/>] If content is generated from 
-the data, that content should include or accompany a notice explaining 
-that the database was used in its creation.^[Example notice: ‘Contains 
-information from \<*database*\> which is made available under the [ODC 
-Attribution License](http://opendatacommons.org/licenses/by/).’] If the 
-database is used substantially to create a new database or collection 
-of databases, the licence URL or text and copyright/database right 
+modify, transform and build upon it for any purpose.^[ODC-By, URL:
+<http://opendatacommons.org/licenses/by/>] If content is generated from
+the data, that content should include or accompany a notice explaining
+that the database was used in its creation.^[Example notice: ‘Contains
+information from \<*database*\> which is made available under the [ODC
+Attribution License](http://opendatacommons.org/licenses/by/).’] If the
+database is used substantially to create a new database or collection
+of databases, the licence URL or text and copyright/database right
 notices must be distributed with the new database or collection.
+
+\bgroup\marginbox\boxout
+\noindent{}**ODC-ODbL at a glance**
+
+*Good for*
+
+  * most databases and datasets
+  * data to be used automatically
+  * data to be used for generating non-data products
+
+*Watch out for*
+
+  * attribution stacking
+  * the copyleft condition as it reduces interoperability
+  * the DRM clause as it may put off some reusers
+
+\endboxout\endmarginbox\egroup
 
 The Open Data Commons Open Database Licence (ODC-ODbL) is the same as
 ODC-By but for a couple of additional conditions.^[ODC-ODbL, URL:
-<http://opendatacommons.org/licenses/odbl/>] It adds a copyleft 
-condition that applies to new databases derived from the database (but 
-not collections of databases or non-database content produced directly 
-from it); this condition would be satisfied by future versions of the 
-same licence or a compatible one as judged by the licensor. The other 
-condition is that technological restrictions such as Digital Rights 
-Management (DRM) mechanisms can only be applied to the database or a 
-new database derived from it if an alternative copy without the 
+<http://opendatacommons.org/licenses/odbl/>] It adds a copyleft
+condition that applies to new databases derived from the database (but
+not collections of databases or non-database content produced directly
+from it); this condition would be satisfied by future versions of the
+same licence or a compatible one as judged by the licensor. The other
+condition is that technological restrictions such as Digital Rights
+Management (DRM) mechanisms can only be applied to the database or a
+new database derived from it if an alternative copy without the
 restrictions is made equally available.
 
 Being written in database terms, these licences are suited to a wider
@@ -451,6 +511,22 @@ less flexible.
 
 Open/Non-Commercial Government Licence {#sec:ogl}
 --------------------------------------
+
+\bgroup\marginbox\boxout
+\noindent{}**OGL at a glance**
+
+*Good for*
+
+  * UK public sector databases and datasets
+  * data to be used automatically
+
+*Watch out for*
+
+  * attribution stacking if used with differently licensed data
+  * categories of data that cannot be licensed in this way
+  * ties to the UK legal context
+
+\endboxout\endmarginbox\egroup
 
 The Open Government Licence (OGL) was released as part of the UK
 Government Licensing Framework in September 2010; version 2 was released
@@ -493,11 +569,28 @@ explicitly does not permit use:
 The attribution condition is couched in flexible terms so as to mitigate
 the problem of attribution stacking. In cases of data being drawn
 together from many different datasets, a simple generic statement will
-satisfy the licence terms.^[‘Contains public sector information 
-licensed under the Open Government Licence v2.0.’] Furthermore, if a 
-derived dataset is released under CC BY version 4 or ODC-By, users 
-complying with that licence’s attribution requirement automatically 
+satisfy the licence terms.^[‘Contains public sector information
+licensed under the Open Government Licence v2.0.’] Furthermore, if a
+derived dataset is released under CC BY version 4 or ODC-By, users
+complying with that licence’s attribution requirement automatically
 satisfy those of the OGL.
+
+\bgroup\marginbox\boxout
+\noindent{}**NCGL at a glance**
+
+*Good for*
+
+  * commercially valuable UK public sector databases and datasets
+  * data to be used automatically
+
+*Watch out for*
+
+  * attribution stacking if used with differently licensed data
+  * restrictions on uses: only use with dual licensing
+  * categories of data that cannot be licensed in this way
+  * ties to the UK legal context
+
+\endboxout\endmarginbox\egroup
 
 A non-commercial variant was introduced in July 2011,[^NCGL] where
 commercial uses are understood to be ‘primarily intended for or directed
@@ -515,7 +608,7 @@ Notably, while the licence as a whole is not copyleft, the
 non-commercial aspect of it is. In other words, it requires that any
 derivations are released under a non-commercial licence.
 
-[^NCGL]: Non-Commercial Government Licence for public sector 
+[^NCGL]: Non-Commercial Government Licence for public sector
     information, URL:
     <http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/non-commercial-government-licence.htm>
 
@@ -526,6 +619,22 @@ derivations are released under a non-commercial licence.
 Public domain {#sec:pd}
 -------------
 
+\bgroup\marginbox\boxout
+\noindent{}**Public domain at a glance**
+
+*Good for*
+
+  * most databases and datasets
+  * data to be used by anyone or any tool
+  * data to be used for any purpose
+
+*Watch out for*
+
+  * lack of control over how database is reused
+  * lack of protection against unfair competition
+
+\endboxout\endmarginbox\egroup
+
 The most permissive way of releasing data is under a dedication to the
 public domain. This is where all copyright interests and database rights
 are waived, allowing the data to be used as freely as possible.
@@ -535,19 +644,19 @@ special tools for the purpose.
 
 Creative Commons Zero (CC0) is for dedicating works to the public
 domain.^[CC0, URL:
-<http://creativecommons.org/publicdomain/zero/1.0/>] It works on two 
-levels: as a waiver of a person’s rights to the work, and in case that 
-is not effective, as an irrevocable, royalty-free and unconditional 
-licence for anyone to use the work for any purpose. The rights waived 
-include database rights, so CC0 is suitable for use with 
+<http://creativecommons.org/publicdomain/zero/1.0/>] It works on two
+levels: as a waiver of a person’s rights to the work, and in case that
+is not effective, as an irrevocable, royalty-free and unconditional
+licence for anyone to use the work for any purpose. The rights waived
+include database rights, so CC0 is suitable for use with
 data.[@peters2009epd]
 
 There is also the Creative Commons Public Domain Mark (CC PDM), a tool
 that anyone can use to assert that a work is already in the public
 domain.^[CC Public Domain Mark, URL:
-<http://creativecommons.org/publicdomain/mark/1.0/>] The motivation for 
-the tool is to allow public domain works to be more easily discovered 
-and recognised as such [@peters2010ccl], but it should not be used for 
+<http://creativecommons.org/publicdomain/mark/1.0/>] The motivation for
+the tool is to allow public domain works to be more easily discovered
+and recognised as such [@peters2010ccl], but it should not be used for
 waiving rights.
 
 The Open Data Commons Public Domain Dedication and Licence (PDDL)
@@ -557,14 +666,14 @@ worded specifically in database terms.^[PDDL, URL:
 with the deprecated Creative Commons Public Domain Dedication and
 Certification [CC PDDC] tool.) The PDDL explicitly provides for a set of
 community norms to be associated with a database, such as the Open Data
-Commons Attribution-Sharealike Community Norms.^[ODC 
+Commons Attribution-Sharealike Community Norms.^[ODC
 Attribution-Sharealike Community Norms, URL:
-<http://opendatacommons.org/norms/odc-by-sa/>] These express the same 
-ideals as the corresponding licence, but in the form of a code of 
-etiquette rather than a legal obligation.There is also the Open Data 
-Commons Database Contents Licence (ODC-DbCL), which waives copyright 
-for the contents of the database without affecting the copyright or 
-database right of the database itself.^[ODC-DbCL, URL: 
+<http://opendatacommons.org/norms/odc-by-sa/>] These express the same
+ideals as the corresponding licence, but in the form of a code of
+etiquette rather than a legal obligation.There is also the Open Data
+Commons Database Contents Licence (ODC-DbCL), which waives copyright
+for the contents of the database without affecting the copyright or
+database right of the database itself.^[ODC-DbCL, URL:
 <http://opendatacommons.org/licenses/dbcl/>]
 
 Given that dedicating data to the public domain involves permanently
@@ -610,9 +719,9 @@ source code to release it under an open source licence with a strong
 copyleft clause, such as the GNU General Public Licence (GPL). At the
 same time, they offer the source code under an alternative licence
 without the copyleft clause, and charge a fee for the use of this
-less-demanding licence.[@valimaki2003dlo] This dual licensing regime 
-gives developers the choice of using the code for free in free, open 
-source software, or paying a fee to use the code in closed source, 
+less-demanding licence.[@valimaki2003dlo] This dual licensing regime
+gives developers the choice of using the code for free in free, open
+source software, or paying a fee to use the code in closed source,
 possibly commercial
 software.
 
@@ -666,9 +775,9 @@ licensing model (adapted from Välimäki, 2003).\protect\footref(fn:valimiki)}
 \endmarginfigure\egroup
 
 By way of illustration, a dual licensing model working within these
-constraints is shown in [Figure 1](#fig:dual-licence). This model was 
-devised with software development in mind, though it could be applied 
-to situations where a data resource is expanded by many contributors 
+constraints is shown in [Figure 1](#fig:dual-licence). This model was
+devised with software development in mind, though it could be applied
+to situations where a data resource is expanded by many contributors
 over time.
 
 Mechanisms for licensing data {#sec:mechanism}
@@ -683,10 +792,9 @@ suggested text for attaching the Open Data Commons PDDL to a database is
 as follows.
 
 \bgroup\fillboxout
-
 > \[This database is/These data are/\<*name of dataset*\> is\] made
 > available under the Public Domain Dedication and License v1.0 whose
-> full text can be found at: 
+> full text can be found at:
 <http://opendatacommons.org/licenses/pddl/1.0/>
 
 \endfillboxout\egroup
@@ -694,13 +802,13 @@ as follows.
 The rights statement should be displayed prominently, so that any user
 of the data will realise that they are licensed or public domain. It is
 important to note, though, that the first inspection of the data might
-be done by an automated tool rather than a human. 
-CrystalEye,^[CrystalEye 
-Website, URL: <http://wwmm.ch.cam.ac.uk/crystaleye/>] for example, is a 
-database of crystal structures compiled by automatically parsing 
-journal articles and other data sources. The problem for such efforts 
-comes when the tool has to review the IPR status of a data source, 
-examine any available licence terms, and decide whether to accept them. 
+be done by an automated tool rather than a human.
+CrystalEye,^[CrystalEye
+Website, URL: <http://wwmm.ch.cam.ac.uk/crystaleye/>] for example, is a
+database of crystal structures compiled by automatically parsing
+journal articles and other data sources. The problem for such efforts
+comes when the tool has to review the IPR status of a data source,
+examine any available licence terms, and decide whether to accept them.
 There are three possible ways to overcome this difficulty:
 
 1.  a human could review each data source before letting the tool use
@@ -720,18 +828,18 @@ The first of these is not scalable. The third requires extensive
 co-ordination and places limits on the capabilities an automated tool
 can have, but once set up requires very little human intervention. On a
 technical level it can be achieved through use of a Rights Expression
-Language such as MPEG-21 REL,^[ISO/IEC 21000-5:2004. *Information 
-technology – Multimedia framework (MPEG-21) – Part 5: Rights Expression 
-Language.* International Organization for Standardization.] Open 
-Digital Rights Language,^[ODRL Community Group, URL: 
-<http://www.w3.org/community/odrl/>] or METSRights.^[METSRights schema, 
-URL: <http://www.loc.gov/standards/rights/METSRights.xsd>] Permissions 
-and restrictions written in such a language represent an arrangement in 
-their own right: strictly speaking they can only be used as an 
-alternative to, or replacement for, an actual licence, not as a 
-machine-actionable ‘explanation’ of one. The exception to this is the 
-Creative Commons Rights Expression Language, which delegates the 
-precise definition of its terms to the respective full legal codes of 
+Language such as MPEG-21 REL,^[ISO/IEC 21000-5:2004. *Information
+technology – Multimedia framework (MPEG-21) – Part 5: Rights Expression
+Language.* International Organization for Standardization.] Open
+Digital Rights Language,^[ODRL Community Group, URL:
+<http://www.w3.org/community/odrl/>] or METSRights.^[METSRights schema,
+URL: <http://www.loc.gov/standards/rights/METSRights.xsd>] Permissions
+and restrictions written in such a language represent an arrangement in
+their own right: strictly speaking they can only be used as an
+alternative to, or replacement for, an actual licence, not as a
+machine-actionable ‘explanation’ of one. The exception to this is the
+Creative Commons Rights Expression Language, which delegates the
+precise definition of its terms to the respective full legal codes of
 the Creative Commons licences.[@abelson.etal2008ccr][@ccNDcbe]
 
 The second option is a compromise between the other two; it only works
@@ -760,8 +868,7 @@ embedded.[@adobe2010xmp]}
 
 \csname endfigure*\endcsname\egroup
 
-\keepmarginfor{fig:rdf-rights}Again,
-this should be made available somewhere the tool would look when
+Again, this should be made available somewhere the tool would look when
 downloading the data, such as within a dataset catalogue record or
 landing page. If possible you should also include the rights statement
 within each data file – the following list indicates how this may be
