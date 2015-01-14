@@ -4,6 +4,7 @@ author: 'Alex Ball (DCC)'
 date: 17 July 2014
 classoption:
   - onecolumn
+  - mark=rev
 ---
 
 > This guide will help you decide how to apply a licence to your research
@@ -102,6 +103,14 @@ they are allowed to do with the data.
 
 Licensing concepts {#sec:concepts}
 ==================
+
+\marginbox
+
+> ‘An intellectual property (IP) licence is effectively a promise not to sue
+> for infringement of an intellectual property right (IPR).’
+> \quotefrom – \fullcite{irish2005ipr}[@irish2005ipr]
+
+\endmarginbox
 
 The two most effective ways of communicating permissions to potential
 reusers of data are *licences* and *waivers*. A licence in this context
@@ -284,6 +293,17 @@ Commons BY-NC-SA 2.0 Licence; URL:
 <http://groups.inf.ed.ac.uk/ami/corpus/license.shtml>.] and the other a
 chargeable commercial licence. This is also an example of a dual
 licensing arrangement (see ‘[Multiple licensing](#sec:multi)’ below).
+
+\marginbox
+
+> ‘Creative Commons has the option to include commercial uses -- we use
+> the Non-Commercial one, though, because some contributors don't want to
+> lose out on what they think more likely revenue (they think companies
+> have money and research groups don't), and because commercial takers
+> can't accept the Share Alike terms.’
+> \quotefrom – Researcher from the AMI Project, University of Edinburgh
+
+\endmarginbox
 
 Standard licences {#sec:standard}
 =================
@@ -791,13 +811,14 @@ for retrieving the *full text* of the licence itself. As an example, the
 suggested text for attaching the Open Data Commons PDDL to a database is
 as follows.
 
-\bgroup\fillboxout
+\fullwidth
+
 > \[This database is/These data are/\<*name of dataset*\> is\] made
 > available under the Public Domain Dedication and License v1.0 whose
 > full text can be found at:
-<http://opendatacommons.org/licenses/pddl/1.0/>
+> <http://opendatacommons.org/licenses/pddl/1.0/>
 
-\endfillboxout\egroup
+\endfullwidth
 
 The rights statement should be displayed prominently, so that any user
 of the data will realise that they are licensed or public domain. It is
@@ -1023,11 +1044,26 @@ documentation, choose a licence that reflects how you want it to be
 used. As this may be quite different to your intentions for the data,
 you need not use the same licence for both.
 
+\marginbox
+
+> We believe the concept of open data\dots goes beyond making data freely
+> accessible. Data should also be free to distribute, copy, re-format, and
+> integrate into new research, without legal impediments.... Therefore, to
+> eliminate potential legal impediments to integration and reuse of data,
+> specifically, and to help enable long-term interoperability of data we
+> believe an appropriate licence or waiver specific to data should be applied,
+> and made explicit by the authors and publishers.
+> \quotefrom – \fullcite{biomed2010bcp}[@biomed2010bcp]
+
+\endmarginbox
+
 Acknowledgements {#sec:acknowledgements}
 ================
 
 Thank you to Margaret Henty (ANDS), Jason Miles-Campbell (JISC Legal),
 and Angus Whyte and Lorna Brown (DCC) for helpful comments.
+
+\finalpage
 
 Further information {#sec:further-information}
 ===================
