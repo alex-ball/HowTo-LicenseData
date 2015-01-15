@@ -318,7 +318,7 @@ licensor’s IPR or, for a particular licensee, through breach of terms.
 Creative Commons {#sec:cc}
 ----------------
 
-\bgroup\marginbox\boxout
+\bgroup\marginbox\framed
 \noindent{}**Creative Commons at a glance**
 
 *Good for*
@@ -334,7 +334,7 @@ Creative Commons {#sec:cc}
   * the SA condition as it reduces interoperability
   * the ND condition as it severely restricts reuse
 
-\endboxout\endmarginbox\egroup
+\endframed\endmarginbox\egroup
 
 Creative Commons is a non-profit corporation set up in 2001 for the
 purpose of producing simple yet robust licences for creative
@@ -444,7 +444,7 @@ below).
 Open Data Commons {#sec:odc}
 -----------------
 
-\bgroup\marginbox\boxout
+\bgroup\marginbox\framed
 \noindent{}**Example**
 
 In 2010, [OpenStreetMap changed its licence](http://www.osmfoundation.org/wiki/License/We_Are_Changing_The_License)
@@ -454,7 +454,7 @@ from CC BY-SA 2.0 to ODC-ODbL 1.0 because ODbL
   * enforced copyleft for derived data but not derived maps;
   * allowed the project to speak for all contributors.
 
-\endboxout\endmarginbox\egroup
+\endframed\endmarginbox\egroup
 
 The Open Data Commons Project^[Open Data Commons Website, URL:
 <http://opendatacommons.org/>] was set up in 2007 to develop a
@@ -467,7 +467,7 @@ of the Creative Commons licences, but designed specifically for
 databases. All three follow the Creative Commons model of providing a
 clear summary and canonical URL alongside the full legal text.
 
-\bgroup\marginbox\boxout
+\bgroup\marginbox\framed
 \noindent{}**ODC-By at a glance**
 
 *Good for*
@@ -480,7 +480,7 @@ clear summary and canonical URL alongside the full legal text.
 
   * attribution stacking
 
-\endboxout\endmarginbox\egroup
+\endframed\endmarginbox\egroup
 
 The Open Data Commons Attribution Licence (ODC-By) allows licensees to
 copy, distribute and use the database, to produce works from it and to
@@ -494,7 +494,7 @@ database is used substantially to create a new database or collection
 of databases, the licence URL or text and copyright/database right
 notices must be distributed with the new database or collection.
 
-\bgroup\marginbox\boxout
+\bgroup\marginbox\framed
 \noindent{}**ODC-ODbL at a glance**
 
 *Good for*
@@ -509,7 +509,7 @@ notices must be distributed with the new database or collection.
   * the copyleft condition as it reduces interoperability
   * the DRM clause as it may put off some reusers
 
-\endboxout\endmarginbox\egroup
+\endframed\endmarginbox\egroup
 
 The Open Data Commons Open Database Licence (ODC-ODbL) is the same as
 ODC-By but for a couple of additional conditions.^[ODC-ODbL, URL:
@@ -532,7 +532,7 @@ less flexible.
 Open/Non-Commercial Government Licence {#sec:ogl}
 --------------------------------------
 
-\bgroup\marginbox\boxout
+\bgroup\marginbox\framed
 \noindent{}**OGL at a glance**
 
 *Good for*
@@ -546,7 +546,7 @@ Open/Non-Commercial Government Licence {#sec:ogl}
   * categories of data that cannot be licensed in this way
   * ties to the UK legal context
 
-\endboxout\endmarginbox\egroup
+\endframed\endmarginbox\egroup
 
 The Open Government Licence (OGL) was released as part of the UK
 Government Licensing Framework in September 2010; version 2 was released
@@ -595,7 +595,7 @@ derived dataset is released under CC BY version 4 or ODC-By, users
 complying with that licence’s attribution requirement automatically
 satisfy those of the OGL.
 
-\bgroup\marginbox\boxout
+\bgroup\marginbox\framed
 \noindent{}**NCGL at a glance**
 
 *Good for*
@@ -610,7 +610,7 @@ satisfy those of the OGL.
   * categories of data that cannot be licensed in this way
   * ties to the UK legal context
 
-\endboxout\endmarginbox\egroup
+\endframed\endmarginbox\egroup
 
 A non-commercial variant was introduced in July 2011,[^NCGL] where
 commercial uses are understood to be ‘primarily intended for or directed
@@ -639,7 +639,7 @@ derivations are released under a non-commercial licence.
 Public domain {#sec:pd}
 -------------
 
-\bgroup\marginbox\boxout
+\bgroup\marginbox\framed
 \noindent{}**Public domain at a glance**
 
 *Good for*
@@ -653,7 +653,7 @@ Public domain {#sec:pd}
   * lack of control over how database is reused
   * lack of protection against unfair competition
 
-\endboxout\endmarginbox\egroup
+\endframed\endmarginbox\egroup
 
 The most permissive way of releasing data is under a dedication to the
 public domain. This is where all copyright interests and database rights
@@ -782,10 +782,10 @@ holders are setting up a multiple licensing regime of their own.
 Another, more extreme, possibility is to negotiate a rights assignment.
 [@meeker2005dlo][@gnu2010wca]
 
-\bgroup\marginfigure\marginfillboxout\small
+\bgroup\marginfigure\snugshade\small
 \input{fig-dual-licence}
 
-\endmarginfillboxout
+\endsnugshade
 
 \caption[Licence streams of a core product in a simplified dual
 licensing model]{Licence streams of a core product in a simplified dual
@@ -869,7 +869,7 @@ URLs. For example, the machine-readable equivalent of the ODC PDDL
 statement above would be a Resource Description Framework (RDF) triple
 such as that shown in [Figure 2](#fig:rdf-rights).[@manola.miller2004rp]
 
-\bgroup\csname figure*\endcsname[ht]\fillboxout\small
+\bgroup\csname figure*\endcsname[ht]\shaded\small
 
 ~~~~ {.xml}
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns">
@@ -879,7 +879,7 @@ such as that shown in [Figure 2](#fig:rdf-rights).[@manola.miller2004rp]
 </rdf:RDF>
 ~~~~~~~~~~~
 
-\endfillboxout
+\endshaded
 \caption[RDF rights statement]{A rights statement encoded in RDF/XML.
 Note that the `rdf:about` attribute should identify the data to
 which the statement applies. In the context of an XMP packet, this
