@@ -13,13 +13,13 @@ pdf: tmp $(BIB).bib dcchowto-apa.csl
 	# The next line is peculiar to this document
 	perl -0777 -p -i -e 's@\\footref\(fn:valimiki\)@\\footref{fn:valimiki}@ig' $(NAME)-tmp.md
 	pandoc -s -S --latex-engine=lualatex --biblio $(BIB).bib --csl dcchowto-apa.csl -N -V fontsize=11pt -V papersize=a4paper -V lang=british -V geometry:hmargin=3cm -V geometry:vmargin=2.5cm -V mainfont=Charis\ SIL -V monofont=DejaVu\ Sans\ Mono -V documentclass=memoir -V classoption="article,oneside" -V header-includes="\usepackage[svgnames]{xcolor}\colorlet{dccblue}{Blue}\colorlet{dccmaroon}{Crimson}\colorlet{dccpeach}{AntiqueWhite}\colorlet{shadecolor}{AntiqueWhite}\usepackage{tikz}\usetikzlibrary{positioning}\let\marginfigure=\figure\let\endmarginfigure=\endfigure\newfloat{marginbox}{lom}{Box}\let\quotefrom=\relax\let\finalpage=\relax\let\fullwidth=\relax\let\endfullwidth=\relax\let\fullcite=\textbf" $(NAME)-tmp.md -o $(NAME)-preview.pdf
-html: tmp $(BIB).bib dcchowto-apa.csl dcchowto-template.html
+html: tmp $(BIB).bib dcchowto-apa.csl
 	perl -0777 -p -i -e 's@\\bgroup\\figure(?:\[[^\]]+\])?(.*?)\\caption\[[^\]]+\]\{([^}]+)\}\n\\label\{[^}]+\}\n\n\\endfigure\\egroup@<div class="div_highlight" style="border-radius:8px;" id="\3">\1<p style="text-align:center;"><strong>Figure N:</strong> \2</p>\n\n</div>@igms' $(NAME)-tmp.md
 	perl -0777 -p -i -e 's@\\bgroup\\figure(?:\[[^\]]+\])?(.*?)\\caption\{([^}]+)\}\n\\label\{[^}]+\}\n\n\\endfigure\\egroup@<div class="div_highlight" style="border-radius:8px;" id="\3">\1<p style="text-align:center;"><strong>Figure N:</strong> \2</p>\n\n</div>@igms' $(NAME)-tmp.md
 	perl -0777 -p -i -e 's@\\input\{([^}]+)\}@open+F,"$$1.html";join"",<F>@ige' $(NAME)-tmp.md
 	# The next line is peculiar to this document
 	perl -0777 -p -i -e 's@\\footref\(fn:valimiki\)@<a href="#fn55" class="footnoteRef"><sup>[55]</sup></a>@ig' $(NAME)-tmp.md
-	pandoc -s -S --toc --toc-depth=1 --biblio $(BIB).bib --csl dcchowto-apa.csl --template=dcchowto-template $(NAME)-tmp.md -o $(NAME).html
+	pandoc -s -S --toc --toc-depth=1 --biblio $(BIB).bib --csl dcchowto-apa.csl --template=`kpsewhich dcchowto-template.html` $(NAME)-tmp.md -o $(NAME).html
 	perl -0777 -p -i -e 's@<p></p>@@ig' $(NAME).html
 	perl -0777 -p -i -e 's@<h5 id="([^"]+)">(?:<a href="[^"]+">)?([^<]+)(?:</a>)?</h5>@<h6 id="\1">\2</h6>@ig' $(NAME).html
 	perl -0777 -p -i -e 's@<h4 id="([^"]+)">(?:<a href="[^"]+">)?([^<]+)(?:</a>)?</h4>@<h5 id="\1">\2</h5>@ig' $(NAME).html
@@ -29,8 +29,8 @@ html: tmp $(BIB).bib dcchowto-apa.csl dcchowto-template.html
 	perl -0777 -p -i -e 's@<div class="div_highlight" style="border-radius:8px;">\n<h1><a href="([^"]+)">([^<]+)</a></h1>@<div class="div_highlight" style="border-radius:8px;">\n<h2 id="\1">\2</h2>@ig' $(NAME).html
 	perl -0777 -p -i -e 's@<h1><a href="#sec:refs">References</a></h1>@<h2 id="#sec:refs">References</h2>@ig' $(NAME).html
 	perl -0777 -p -i -e 's@<sup>(\d+)</sup>@<sup>[\1]</sup>@ig' $(NAME).html
-dtp: $(NAME).md $(BIB).bib dcchowto-template.latex
-	pandoc -s -S --biblatex -V biblio-files=$(BIB).bib --template=dcchowto-template -V header-includes="\usetikzlibrary{positioning}" $(NAME).md -t latex -o $(NAME).tex
+dtp: $(NAME).md $(BIB).bib
+	pandoc -s -S --biblatex -V biblio-files=$(BIB).bib --template=`kpsewhich dcchowto-template.latex` -V header-includes="\usetikzlibrary{positioning}" $(NAME).md -t latex -o $(NAME).tex
 	# The next 3 lines are peculiar to this document
 	perl -0777 -p -i -e 's@\\footref\(fn:valimiki\)@\\footref{fn:valimiki}@ig' $(NAME).tex
 	perl -0777 -p -i -e 's@\\autocite\{valimaki2003dlo\}@\\footnote{\\fullcite{valimaki2003dlo}\\label{fn:valimiki}}@i' $(NAME).tex
