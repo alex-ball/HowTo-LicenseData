@@ -10,11 +10,11 @@ are new to managing and curating data.
 "How to License Research Data" is a title in this series. Before moving to this
 repository, there were five versions:
 
- 1. 2011-02-22
- 2. 2011-06-01
- 3. 2011-10-18
- 4. 2012-06-20
- 5. 2014-01-17
+ 1. [2011-02-22](http://www.dcc.ac.uk/webfm_send/2028)
+ 2. [2011-06-01](http://www.dcc.ac.uk/webfm_send/531)
+ 3. [2011-10-18](http://www.dcc.ac.uk/webfm_send/864)
+ 4. [2012-06-20](http://www.dcc.ac.uk/webfm_send/332)
+ 5. [2014-01-17](http://www.dcc.ac.uk/webfm_send/1735)
 
 Future maintenance of the Guide will occur in this repository.
 
